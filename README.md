@@ -119,7 +119,7 @@ conda create -n verl python==3.12
 conda activate verl
 cd verl/
 USE_MEGATRON=0 bash scripts/install_vllm_sglang_mcore.sh
-pip install --no-deps e .
+pip install --no-deps -e .
 ```
 
 ### Train
@@ -152,6 +152,19 @@ be evaluated offline with any vLLM harness against the same parquet.
 
 
 
+
+## 📚 Citation
+
+If you find this work useful, please cite:
+
+```bibtex
+@article{lin2026policy,
+  title={On-policy Distillation with Verifiable Reward},
+  author={Lin, Wenze and Zhao, Jiale and Jiang, Xitai and Rao, Songde and Li, Yining and Wang, Shenzhi and He, Bingxiang and Huang, Gao},
+  journal={arXiv preprint arXiv:2608.24696},
+  year={2026}
+}
+```
 
 ## Acknowledgements
 
