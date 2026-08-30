@@ -2,6 +2,8 @@
 
 # OPDVR: On-policy Distillation with Verifiable Reward
 
+**[📄 Paper](https://arxiv.org/abs/2608.24696)**
+
 
 
 </div>
