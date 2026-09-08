@@ -134,16 +134,16 @@ val_kwargs:
   top_k: -1
 
   # Top-p sampling parameter. Default 1.0.
-  top_p: 1.0
+  top_p: 0.95
 
   # Sampling temperature for rollout.
-  temperature: 0
+  temperature: 0.7
 
   # whether to repeat n times for validation
   n: 1
 
   # Whether to sample during training rollout. False uses greedy sampling.
-  do_sample: False
+  do_sample: True
 
 # Multi-turn interaction config for tools or chat.
 multi_turn:
